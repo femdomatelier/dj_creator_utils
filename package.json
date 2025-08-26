@@ -1,0 +1,43 @@
+{
+  "name": "x-lottery-system",
+  "version": "1.0.0",
+  "description": "Twitter/X lottery system for drawing winners from tweet interactions",
+  "main": "src/cli.js",
+  "bin": {
+    "x-lottery": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node tests/run-all-tests.js",
+    "test:unit": "node tests/run-all-tests.js",
+    "test:integration": "node tests/run-all-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bachelorwang/f__kx.git"
+  },
+  "keywords": [
+    "twitter",
+    "lottery",
+    "raffle",
+    "giveaway",
+    "scraper"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bachelorwang/f__kx/issues"
+  },
+  "homepage": "https://github.com/bachelorwang/f__kx#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.2.1",
+    "playwright": "^1.55.0",
+    "winston": "^3.17.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
