@@ -4,13 +4,13 @@ A command-line tool for running lotteries based on Twitter/X post interactions (
 
 ## Features
 
-- 🔄 Extract retweeters from any tweet
-- ❤️ Extract users who liked a tweet  
-- 👥 Extract followers of the tweet author
-- 🎲 Random or weighted lottery drawing
-- 📊 Multiple output formats (text, JSON, CSV)
-- 🔍 Advanced filtering options
-- 🚫 No API required
+- Extract retweeters from any tweet
+- Extract users who liked a tweet  
+- Extract followers of the tweet author
+- Random or weighted lottery drawing
+- Multiple output formats (text, JSON, CSV)
+- Advanced filtering options
+- No API required
 
 ## Installation
 
@@ -131,26 +131,34 @@ This will show:
 | `--verbose` | Enable verbose logging and progress | false |
 | `--timeout <ms>` | Navigation timeout | 60000 |
 | `--retry <n>` | Number of retry attempts | 2 |
+| `--debug` | Enable debug mode with screenshots | false |
 | `--seed <value>` | Random seed for reproducibility | timestamp |
 
 ## Output Formats
 
 ### Text (Default)
-Human-readable format with emojis and colors:
+Human-readable format with colors:
 ```
 ==================================================
-🎲 LOTTERY RESULTS 🎲
+LOTTERY RESULTS
 ==================================================
 
-📊 STATISTICS:
+STATISTICS:
 Total Participants: 150
 Retweeters: 100
 Likers: 75
+Multiple Actions: 25
 
-🏆 WINNERS:
-🥇 #1 - @winner1 🔄
-🥈 #2 - @winner2 🔄❤️
-🥉 #3 - @winner3 🔄
+WINNERS:
+#1 - @winner1 (retweet)
+#2 - @winner2 (retweet, like)
+#3 - @winner3 (retweet)
+
+METADATA:
+Draw Method: random
+Timestamp: 2024-01-01T12:00:00.000Z
+Tweet: https://x.com/user/status/123456
+Seed: 12345
 ```
 
 ### JSON
