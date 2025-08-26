@@ -1,0 +1,24 @@
+🎉 新作発売・期間限定割引！
+
+作品情報：
+🆔 作品番号：{{productId}}
+📖 作品タイトル：{{title}}
+📅 発売日：{{dateNoYear}}（{{weekday}}）
+
+💰 価格情報：
+🏷️ 通常価格：{{price}}
+🔥 期間限定：{{off}}% OFF
+💸 特価：{{salePrice}}
+✨ お得額：{{savings}}
+
+⏰ 割引期間：
+📌 開始：{{startDateNoYear}}
+📌 終了：{{endDateNoYear}}
+⚡ 限定{{days}}日間！
+
+発売日：{{dateISO}}
+
+期間限定のお得なチャンス、お見逃しなく！
+
+---
+お知らせ生成日時：{{now}}

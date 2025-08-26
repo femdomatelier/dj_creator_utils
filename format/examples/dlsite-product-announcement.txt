@@ -1,0 +1,32 @@
+🎉 新作発売のお知らせ 🎉
+
+作品情報：
+タイトル：{{title}}
+作品番号：{{productId}}
+ジャンル：{{genre}}
+
+発売詳細：
+📅 発売日：{{date}}（{{weekday}}）
+🏷️ 通常価格：{{price}}
+💰 発売記念割引：{{off}}% OFF
+🎯 特価：{{salePrice}}
+💸 お得額：{{savings}}
+
+割引期間：
+📌 開始：{{startDate}}
+⏰ 終了：{{endDate}}
+⚡ 限定期間：{{days}}日間のみ！
+
+作品説明：
+{{description}}
+
+特徴：
+{{features}}
+
+タグ：{{tags}}
+
+この限定特価をお見逃しなく！
+今すぐDLsiteで特別価格でお求めください。
+
+---
+生成日時：{{nowTime}}

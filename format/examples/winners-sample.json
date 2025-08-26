@@ -1,0 +1,16 @@
+{
+  "winners": [
+    {
+      "username": "alice_gamer"
+    },
+    {
+      "username": "bob_player"
+    },
+    {
+      "username": "charlie_fan"
+    }
+  ],
+  "participants": ["alice_gamer", "bob_player", "charlie_fan", "diana_user", "eve_player"],
+  "seed": "random-seed-12345",
+  "timestamp": "2024-01-15T10:30:00.000Z"
+}

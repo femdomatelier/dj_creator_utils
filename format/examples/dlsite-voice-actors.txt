@@ -1,0 +1,35 @@
+🎊 豪華声優陣による新作発売・期間限定割引！
+
+作品情報：
+🆔 作品番号：{{productId}}
+📖 作品タイトル：{{title}}
+📅 発売日：{{dateNoYear}}（{{weekday}}）
+
+🎭 声優陣：
+🌟 メイン声優：{{mainVoiceActor}}
+👥 参加声優数：{{voiceActorCount}}名
+🎤 キャスト一覧：
+{{voiceActors}}
+
+💰 価格情報：
+🏷️ 通常価格：{{price}}
+🔥 期間限定：{{off}}% OFF
+💸 特価：{{salePrice}}
+✨ お得額：{{savings}}
+
+⏰ 割引期間：
+📌 開始：{{startDate}}
+📌 終了：{{endDate}}
+⚡ 限定{{days}}日間！
+
+💫 特徴：
+• 豪華声優陣が参加
+• {{voiceActorCount}}名のプロ声優による吹き替え
+• メイン{{mainVoiceActor}}による熱演
+
+発売日：{{dateISO}}
+
+豪華声優陣 × 期間限定特価、絶対にお見逃しなく！
+
+---
+お知らせ生成日時：{{now}}

@@ -1,0 +1,30 @@
+{
+  "name": "format-tools",
+  "version": "1.0.0",
+  "description": "Template-based file generation tools for DLsite products and giveaway notifications",
+  "main": "src/cli.js",
+  "bin": {
+    "format-tools": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test",
+    "dlsite": "node src/cli.js dlsite",
+    "giveaway": "node src/cli.js giveaway"
+  },
+  "keywords": [
+    "template",
+    "file-generation",
+    "dlsite",
+    "giveaway",
+    "notification"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
